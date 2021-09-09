@@ -1,0 +1,79 @@
+h1,
+h2,
+h3 {
+  font-family: "Barlow", sans-serif; }
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif; }
+
+.btn-primary {
+  background-color: #169aa6;
+  border-color: #169aa6; }
+  .btn-primary:hover {
+    background-color: #42a8a1;
+    border-color: #42a8a1; }
+
+.card {
+  margin: 0 auto 1rem auto; }
+  .card-img-top {
+    height: 10rem; }
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 18rem; } }
+
+.carousel-control-next-icon {
+  background-color: #169aa6; }
+
+.carousel-control-prev-icon {
+  background-color: #169aa6; }
+
+.carousel-inner img {
+  height: 10rem; }
+
+@media (min-width: 576px) {
+  .carousel-inner img {
+    height: 20rem; } }
+
+@media (min-width: 768px) {
+  .carousel-inner img {
+    height: 30rem; }
+  h1 {
+    font-size: 3.5rem; } }
+
+@media (min-width: 992) {
+  .carousel-inner img {
+    height: 40rem; } }
+
+@media (min-width: 1200) {
+  .carousel-inner img {
+    height: 40rem; } }
+
+.topBreadcrumb {
+  background-color: #169aa6;
+  color: white;
+  text-align: center; }
+
+a,
+.nav-link {
+  color: #169aa6; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #169aa6; }
+
+.perfil__descripcion {
+  animation-duration: 2.5s;
+  animation-name: slidein; }
+  .perfil__descripcion h3 {
+    font-size: 2.2rem; }
+  .perfil__descripcion p {
+    font-size: 1.8rem; }
+
+.perfil__imagen {
+  width: 100%; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%; }
+  to {
+    margin-left: 0%; } }
