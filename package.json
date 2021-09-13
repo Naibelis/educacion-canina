@@ -7,7 +7,11 @@
     "build-css": "node-sass --include-path scss scss/index.scss css/index.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Naibelis Freitez",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naibelis/educacion-canina"
+  },
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
