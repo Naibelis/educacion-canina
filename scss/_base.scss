@@ -1,0 +1,32 @@
+h1,
+h2,
+h3 {
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+.btn-primary {
+  background-color: $darkcyan;
+  border-color: $darkcyan;
+
+  &:hover {
+    background-color: $lightcyan;
+    border-color: $lightcyan;
+  }
+}
+
+.card {
+  margin: 0 auto 1rem auto;
+  &-img-top {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    width: 18rem;
+  }
+}

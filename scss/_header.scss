@@ -1,0 +1,13 @@
+.topBreadcrumb {
+    background-color: $darkcyan;
+    color: white;
+    text-align: center;
+  }
+  
+  a,
+  .nav-link {
+    color: $darkcyan;
+  }
+  .navbar-light .navbar-nav .nav-link.active {
+    color: $darkcyan;
+  }
