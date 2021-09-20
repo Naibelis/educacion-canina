@@ -1,51 +1,57 @@
 .carousel-control {
-    &-next-icon {
-      background-color: $darkcyan;
-    }
-    &-prev-icon {
-      background-color: $darkcyan;
-    }
+  &-next-icon {
+    background-color: $darkcyan;
   }
-  
+  &-prev-icon {
+    background-color: $darkcyan;
+  }
+}
+
+.carousel-inner {
+  img {
+    height: 10rem;
+  }
+}
+
+@media (min-width: 576px) {
   .carousel-inner {
     img {
-      height: 10rem;
+      height: 20rem;
     }
   }
-  
-  @media (min-width: 576px) {
-    .carousel-inner {
-      img {
-        height: 20rem;
-      }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner {
+    img {
+      height: 30rem;
     }
   }
-  
-  @media (min-width: 768px) {
-    .carousel-inner {
-      img {
-        height: 30rem;
-      }
-    }
-  
-    h1 {
-      font-size: 3.5rem;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 992) {
+  .carousel-inner {
+    img {
+      height: 40rem;
     }
   }
-  
-  @media (min-width: 992) {
-    .carousel-inner {
-      img {
-        height: 40rem;
-      }
+}
+
+@media (min-width: 1200) {
+  .carousel-inner {
+    img {
+      height: 40rem;
     }
   }
-  
-  @media (min-width: 1200) {
-    .carousel-inner {
-      img {
-        height: 40rem;
-      }
-    }
+}
+.promocion-servicios {
+  & .card-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
-  
+}
