@@ -4,7 +4,8 @@ h3 {
   font-family: "Barlow", sans-serif; }
 
 body {
-  font-family: "Atkinson Hyperlegible", sans-serif; }
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 1.15rem; }
 
 .btn-primary {
   background-color: #169aa6;
@@ -21,6 +22,11 @@ body {
 @media only screen and (max-width: 1024px) {
   .card {
     width: 18rem; } }
+
+@media (max-width: 576px) {
+  .container {
+    padding-left: 1.15rem;
+    padding-right: 1.15rem; } }
 
 .carousel-control-next-icon {
   background-color: #169aa6; }
@@ -48,6 +54,11 @@ body {
 @media (min-width: 1200) {
   .carousel-inner img {
     height: 40rem; } }
+
+.promocion-servicios .card-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
 
 .topBreadcrumb {
   background-color: #169aa6;
