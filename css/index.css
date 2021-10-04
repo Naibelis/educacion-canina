@@ -89,3 +89,15 @@ a,
 @media (min-width: 992) {
   .perfil__imagen {
     width: 40%; } }
+
+.banner__error {
+  height: 100vh;
+  overflow: hidden; }
+
+.banner__logo {
+  width: 100px;
+  display: block;
+  margin: 20px auto; }
+
+.banner__imagen {
+  width: 800px; }

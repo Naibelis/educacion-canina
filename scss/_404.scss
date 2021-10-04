@@ -1,0 +1,14 @@
+.banner {
+    &__error {
+        height: 100vh;
+        overflow: hidden;
+    }
+    &__logo {
+        width: 100px;
+        display: block;
+        margin: 20px auto;
+    }
+    &__imagen {
+        width: 800px;
+    }
+}
